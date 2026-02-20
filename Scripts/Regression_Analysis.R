@@ -16,7 +16,7 @@ library(stargazer)
 
 # Distance matrix and price growth data
 distance_matrix <- read_csv("kc_distance_matrix.csv")
-price_change <- read_csv("kc_growth.csv")
+price_change <- read_csv("kc_price_data.csv")
 
 # ============================================================
 # 2. Data Cleaning and Transformation
