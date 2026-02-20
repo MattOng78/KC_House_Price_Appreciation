@@ -62,11 +62,17 @@ Extended specifications include:
 ---
 
 ## Key Findings
+### Stronger Suburban Appreciation
+Peripheral ZIP codes exhibit stronger 5-year price appreciation relative to the urban core.
+![Price Appreciation Map](figures/price_appreciation_map.png)
 
-- Peripheral and suburban ZIP codes exhibit stronger 5-year price appreciation relative to traditional urban core areas.  
-- Proximity to major commercial nodes remains statistically relevant, but appreciation dynamics vary by initial asset value.  
-- Interaction effects suggest that higher-priced properties respond differently to location-based centrality.  
-- Residual mapping highlights ZIP codes outperforming modeled expectations, signaling potential development or infrastructure-driven shifts.  
+### Interaction Effects: Initial Price × Urban Core Distance
+Higher-priced properties display differentiated growth patterns depending on urban centrality.
+![Urban Core Regression Results](tables/urban_core_table.png)
+
+### Full Model Results
+The combined specification explains approximately 35% of variation in 5-year appreciation. 
+![Full Model Regression Results](tables/full_model_table.png)
 
 These patterns align with broader national trends of moderate urban core growth and stronger suburban expansion.
 
