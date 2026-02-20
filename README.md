@@ -32,12 +32,13 @@ This formulation allows interpretation in approximate percentage terms while red
 
 ### 2. Spatial Variables
 
-Distances were computed from ZIP-code centroids to major commercial nodes, including:
+Distances were computed from ZIP-code centroids to major Points of Intrest (POIs), including:
 
-- Country Club Plaza  
+- The Plaza  
 - Power & Light District  
-- Downtown Kansas City  
-- Additional regional hubs  
+- The Legends
+- MCI Airport
+- Lee's Summit
 
 An “Urban Core Distance” metric was constructed as:
 
