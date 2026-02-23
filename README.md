@@ -1,4 +1,4 @@
-# Mapping Location-Driven Home Price Appreciation in the Kansas City MSA
+# Price-Tier Convergence and Spatial Housing Appreciation: Evidence from the Kansas City MSA
 
 ## Project Overview
 
@@ -42,7 +42,7 @@ Distances were computed from ZIP-code centroids to major Points of Intrest (POIs
 
 An “Urban Core Distance” metric was constructed as:
 
-UrbanCoreDist = (DistanceToPlaza × DistanceToPowerLight) / 2
+UrbanCoreDist = (DistanceToPlaza + DistanceToPowerLight) / 2
 
 This captures compounded centrality relative to Kansas City's traditional commercial core.
 
@@ -57,7 +57,7 @@ Appreciation_i = β0 + β1 Distance_i + ε_i
 Extended specifications include:
 
 - Urban core distance  
-- Interaction term: Urban core distance × log(initial price)  
+- Interaction term: Urban core distance + log(initial price)  
 - Diagnostic checks for heteroskedasticity and multicollinearity  
 
 ---
@@ -68,14 +68,13 @@ Peripheral ZIP codes exhibit stronger 5-year price appreciation relative to the 
 ![Price Appreciation Map](figures/price_appreciation_map.png)
 
 ### Interaction Effects: Initial Price × Urban Core Distance
-Higher-priced properties display differentiated growth patterns depending on urban centrality.
+The interaction model tests whether the effect of distance varies across price tiers. Results indicate that baseline price segmentation—not urban centrality—is the primary driver of five-year appreciation. The interaction term is statistically significant but economically small, reinforcing that proportional catch-up among lower-priced ZIP codes explains most observed growth patterns.
 ![Urban Core Regression Results](tables/urban_core_table.png)
 
 ### Full Model Results
-The combined specification explains approximately 35% of variation in 5-year appreciation. 
+The preferred specification explains approximately 35% of cross-sectional variation in five-year appreciation (R² ≈ 0.34).
+The dominant result is clear: lower-priced ZIP codes appreciated faster over 2021–2026, consistent with β-convergence dynamics. Distance from the historic urban core has negligible practical impact once baseline price tier is accounted for.
 ![Full Model Regression Results](tables/full_model_table.png)
-
-These patterns align with broader national trends of moderate urban core growth and stronger suburban expansion.
 
 ---
 
