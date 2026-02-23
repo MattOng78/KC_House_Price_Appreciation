@@ -1,6 +1,7 @@
 /*==============================================================*/
-/* Spatial Analysis of 5-Year Home Price Appreciation in the Kansas City MSA */
-/* Matthew Ong | mong01@tamu.edu | February 2026                */
+/*   Price-Tier Convergence and Spatial Housing Appreciation 
+                Evidence from the Kansas City MSA               */
+/*         Matthew Ong | mong01@tamu.edu | February 2026        */
 /*==============================================================*/
 
 
