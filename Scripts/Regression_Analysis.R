@@ -1,5 +1,6 @@
 # ============================================================
-# Spatial Analysis of 5-Year Home Price Appreciation in the Kansas City MSA
+# Price-Tier Convergence and Spatial Housing Appreciation: 
+# Evidence from the Kansas City MSA
 # Matthew Ong | mong01@tamu.edu | February 2026
 # ============================================================
 
@@ -65,7 +66,7 @@ stargazer(
   out = "regression_table.html",
   title = "Distance to Points of Interest and 5-Year Home Price Appreciation",
   dep.var.labels = "Log 5-Year Growth",
-  digits = 4
+  digits = 10
 )
 
 # Full regression model with all POIs
@@ -77,7 +78,8 @@ stargazer(
   full_model,
   type = "html",
   out = "full_model_table.html",
-  title = "Full Model: All POIs and Initial Price"
+  title = "Full Model: All POIs and Initial Price",
+  digits = 10
 )
 
 # Urban core index regression
@@ -89,7 +91,8 @@ stargazer(
   urban_core_lm,
   type = "html",
   out = "urban_core_table.html",
-  title = "Distance to Urban Core and 5-Year Home Price Appreciation"
+  title = "Distance to Urban Core and 5-Year Home Price Appreciation",
+  digits = 10
 )
 
 # Interaction regression
@@ -98,7 +101,8 @@ stargazer(
   interaction_lm,
   type = "html",
   out = "interaction_table.html",
-  title = "5-Year Home Price Appreciation: Initial Price x Distance to Urban Core"
+  title = "5-Year Home Price Appreciation: Initial Price x Distance to Urban Core",
+  digits = 10
 )
 
 # ============================================================
