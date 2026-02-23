@@ -69,12 +69,12 @@ Peripheral ZIP codes exhibit stronger 5-year price appreciation relative to the 
 
 ### Interaction Effects: Initial Price × Urban Core Distance
 The interaction model tests whether the effect of distance varies across price tiers. Results indicate that baseline price segmentation—not urban centrality—is the primary driver of five-year appreciation. The interaction term is statistically significant but economically small, reinforcing that proportional catch-up among lower-priced ZIP codes explains most observed growth patterns.
-![Urban Core Regression Results](tables/urban_core_table.png)
+![Urban Core Regression Results](tables/urban_core.png)
 
 ### Full Model Results
 The preferred specification explains approximately 35% of cross-sectional variation in five-year appreciation (R² ≈ 0.34).
 The dominant result is clear: lower-priced ZIP codes appreciated faster over 2021–2026, consistent with β-convergence dynamics. Distance from the historic urban core has negligible practical impact once baseline price tier is accounted for.
-![Full Model Regression Results](tables/full_model_table.png)
+![Full Model Regression Results](tables/fullmodel.png)
 
 ---
 
